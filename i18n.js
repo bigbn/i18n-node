@@ -36,7 +36,7 @@ i18n.configure = function i18nConfigure(opt) {
   cookiename = (typeof opt.cookie === 'string') ? opt.cookie : null;
 
   // where to store json files
-  directory = (typeof opt.directory === 'string') ? opt.directory : __dirname + pathsep + 'locales';
+  directory = (typeof opt.directory === 'string') ? opt.directory : 'locales';
 
   // write new locale information to disk
   updateFiles = (typeof opt.updateFiles === 'boolean') ? opt.updateFiles : true;
