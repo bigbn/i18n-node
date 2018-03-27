@@ -679,6 +679,8 @@ function read(locale) {
  */
 
 function write(locale) {
+  return
+  
   var stats, target, tmp;
 
   // don't write new locale information to disk if updateFiles isn't true
